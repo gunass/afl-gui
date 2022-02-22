@@ -14,7 +14,7 @@ Usage Guidelines (building from source):
 there if you haven't already
 
 3. You should then be able to compile afl-gui using pkg-config with
-	``gcc afl-gui.c -o afl-gui `pkg-config --cflags --libs gtk+-3.0```
+	`gcc afl-gui.c -o afl-gui `pkg-config --cflags --libs gtk+-3.0``
 	
 4. The wrapper is run by entering
 	./afl-gui
