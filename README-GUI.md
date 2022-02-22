@@ -19,7 +19,7 @@ there if you haven't already
 	`` gcc afl-gui.c -o afl-gui `pkg-config --cflags --libs gtk+-3.0` ``
 	
 4. The wrapper is run by entering
-	./afl-gui
+	`./afl-gui`
 	
 Building on macOS might be possible as GTK3 can be installed via Homebrew but it probably requires a lot of tweaking. 
 	
