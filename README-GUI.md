@@ -7,10 +7,10 @@ afl-gui is a partial GUI wrapper written by Alex Epstein, for the "American Fuzz
 Usage Guidelines (building from source):
 -----------------------------------------------
 1. First, install gtk3 dependencies on your machine via
-	sudo apt-get install libgtk-3-0 libgtk-3-dev
+	`sudo apt-get install libgtk-3-0 libgtk-3-dev`
 	
 2. Move all files in this repository directly to your AFL folder (i.e. wherever "afl-fuzz.c" is) and run
-	make clean all
+	`make clean all`
 there if you haven't already
 
 3. You should then be able to compile afl-gui using pkg-config with
