@@ -8,11 +8,15 @@ Usage Guidelines (building from source):
 -----------------------------------------------
 1. First, install gtk3 dependencies on your machine via
 	sudo apt-get install libgtk-3-0 libgtk-3-dev
+	
+2. Move all files in this repository directly to your AFL folder (i.e. wherever "afl-fuzz.c" is) and run
+	make clean all
+there if you haven't already
 
-2. You should then be able to compile afl-gui using pkg-config with
+3. You should then be able to compile afl-gui using pkg-config with
 	``gcc afl-gui.c -o afl-gui `pkg-config --cflags --libs gtk+-3.0```
 	
-3. The wrapper is run by entering
+4. The wrapper is run by entering
 	./afl-gui
 	
 The Application
