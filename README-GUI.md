@@ -1,10 +1,10 @@
 AFL-GUI 0.1
 =======
 
-afl-gui is a partial GUI wrapper written by Alex Epstein, for the "American Fuzzy Lop" instrumented fuzzer written by Michal Zalewski and Jann Horn. afl-gui is EXPRESSLY for trivial educational purposes only.
+afl-gui is a partial GUI wrapper written by Alex Epstein, for the "American Fuzzy Lop" instrumented fuzzer written by Michal Zalewski and Jann Horn (https://github.com/google/afl). afl-gui is EXPRESSLY for trivial educational purposes only.
 
 
-Usage Guidelines (building from source):
+Usage Guidelines (building from source on Ubuntu):
 -----------------------------------------------
 1. First, install gtk3 dependencies on your machine via
 	`sudo apt-get install libgtk-3-0 libgtk-3-dev`
@@ -19,6 +19,8 @@ there if you haven't already
 4. The wrapper is run by entering
 	./afl-gui
 	
+Building on macOS might be possible as GTK3 can be installed via Homebrew but it probably requires a lot of tweaking. 
+	
 The Application
 ---------------
 afl-gui provides a simple interface to run afl-fuzz with a number of parameters, plus gives support for custom arguments (for unimplemented options such as parallel mode, or AFL extensions such as aflnet).
@@ -30,3 +32,4 @@ Desired Improvements
 + Better implementation of parallelism
 + Output sent to a GTK text buffer in new window
 + Custom GUI output display, rather than Michal's retro text display (which, admittedly, is cool)
++ Cocoa version for macOS support
