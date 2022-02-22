@@ -1,7 +1,9 @@
 AFL-GUI 0.1
 =======
 
-afl-gui is a partial GUI wrapper written by Alex Epstein, for the "American Fuzzy Lop" instrumented fuzzer written by Michal Zalewski and Jann Horn (https://github.com/google/afl). afl-gui is for trivial educational purposes only.
+afl-gui is a partial GUI wrapper written by Alex Epstein, for the "American Fuzzy Lop" instrumented fuzzer written by Michal Zalewski and Jann Horn (https://github.com/google/afl). It should be readily compatible with any extension of AFL which uses the same command-line syntax.
+
+afl-gui is for trivial educational purposes only.
 
 
 Usage Guidelines (building from source on Ubuntu):
